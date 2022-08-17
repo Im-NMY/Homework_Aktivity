@@ -24,5 +24,6 @@ class SecondActivity: AppCompatActivity() {
             intent.data = Uri.parse ("tel:$phone")
             startActivity (intent)
         }
+
     }
 }
